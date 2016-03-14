@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="examplew.midopc.calc">
+
+    <application
+        android:allowBackup="true"
+        android:logo="@drawable/calculator"
+        android:icon="@drawable/calculator"
+        android:label="@string/app_name"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
